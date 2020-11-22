@@ -1,0 +1,44 @@
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    position: absolute;
+    left: 50%;
+    margin-left: -155px;
+    top: 50px;
+}
+table tr:first-child td{
+    border-top: none;
+}
+table tr:last-child td{
+    border-bottom: none;
+}
+table tr td:first-child{
+    border-left: none;
+}
+table tr td:last-child{
+    border-right: none;
+}
+.endgame{
+    
+    display: none;
+    width:250px;
+    height: 120px;
+    top: 145px;
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    background-color:yellow;
+    opacity: 70%;
+    font-size: 2em;
+    border-radius: 10%;
+    border:2px solid green;
+}
+
