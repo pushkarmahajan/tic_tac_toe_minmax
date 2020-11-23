@@ -1,10 +1,15 @@
+body{
+    background-color:black;
+}
 td{
-    border: 1px solid black;
+    border: 1px solid white;
     border-collapse: collapse;
     height: 100px;
     width: 100px;
     cursor: pointer;
+    color: white;
     text-align: center;
+    font-size: 80px;
 }
 
 table{
@@ -26,8 +31,7 @@ table tr td:first-child{
 table tr td:last-child{
     border-right: none;
 }
-.endgame{
-    
+.endgame{  
     display: none;
     width:250px;
     height: 120px;
