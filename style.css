@@ -32,17 +32,19 @@ table tr td:last-child{
     border-right: none;
 }
 .endgame{  
+    text-align: center;
+    padding-top:60px;
     display: none;
     width:250px;
     height: 120px;
-    top: 145px;
+    top: 115px;
     position: absolute;
     left: 50%;
     margin-left: -125px;
-    background-color:yellow;
-    opacity: 70%;
+    background-color: navajowhite;
+    opacity: 100%;
     font-size: 2em;
     border-radius: 10%;
-    border:2px solid green;
+    border:2px solid black;
 }
 
